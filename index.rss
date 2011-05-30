@@ -2,6 +2,7 @@
 <title>zyegfryed's Git Achievements</title>
 <description></description>
 <link></link>
+<item><title>Apprentice Pedantic (Level 1)</title><description>Use the flow extension to encourage an orderly and standardized branching model</description></item>
 <item><title>Apprentice Product Manager (Level 1)</title><description>Stash the changes in a dirty working directory away with git stash.</description></item>
 <item><title>Master Blacksmith (Level -inf)</title><description>Created a branch using git checkout -b.</description></item>
 <item><title>Author (Level 5)</title><description>Made 2^Level commits using git commit.</description></item>
