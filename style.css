@@ -86,7 +86,7 @@ ul {
     font-size: 100%;
 }
 #locked {
-    visibility: hidden;
+    display: none;
 }
 #locked p {
     font-size: 110%;
