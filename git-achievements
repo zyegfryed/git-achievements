@@ -135,8 +135,10 @@ function count_unlock_achievement
 function unalias_command
 {
     #XXX maybe this should be recursive?
-    local cmdline=$(git config --get "alias.$1")
-    echo $cmdline
+    if [ -n $1 ] && [[ $1 != -* ]]; then
+      local cmdline=$(git config --get "alias.$1")
+      echo $cmdline
+    fi
 }
 
 function check_for_achievements
